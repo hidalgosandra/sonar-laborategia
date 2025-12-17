@@ -33,3 +33,4 @@ jobs:
         env:
           SONAR_TOKEN: squ_2718c1afb83cf8376fe3fafb46fec637f2a1a932
           SONAR_HOST_URL: https://enlightenedly-figurate-chadwick.ngrok-free.dev
+
