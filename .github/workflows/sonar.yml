@@ -24,7 +24,7 @@ jobs:
         uses: sonarsource/sonarqube-scan-action@v3.0.0
         env:
           SONAR_TOKEN: squ_2718c1afb83cf8376fe3fafb46fec637f2a1a932
-          SONAR_HOST_URL: ${{ vars.SONAR_HOST_URL }}
+          SONAR_HOST_URL: https://enlightenedly-figurate-chadwick.ngrok-free.dev
 
       # 2. URRATSA: Emaitza egiaztatu (Pipeline-a apurtu erroreak)
       - name: Quality Gate Egiaztatu
@@ -32,4 +32,4 @@ jobs:
         timeout-minutes: 5
         env:
           SONAR_TOKEN: squ_2718c1afb83cf8376fe3fafb46fec637f2a1a932
-          SONAR_HOST_URL: ${{ vars.SONAR_HOST_URL }}
+          SONAR_HOST_URL: https://enlightenedly-figurate-chadwick.ngrok-free.dev
