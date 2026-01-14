@@ -13,7 +13,7 @@ if ($izena == "Ikaslea") {
 }
 
 // 2. Arazoa: Aldagai hau definitu da baina ez da inoiz erabiltzen (Unused variable)
-$zenbakiSekretua = 12345;
+$zenbakiSekretua = 123456;
 
 function gehiketa($a, $b)
 {
